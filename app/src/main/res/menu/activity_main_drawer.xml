@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+
+    <group
+        android:checkableBehavior="single"
+        android:background="@color/colorAccent">
+        <!--<item
+            android:id="@+id/nav_song_player"
+            android:icon="@drawable/ic_music_video_red_a400_18dp"
+            android:title="Player" />-->
+        <item
+            android:id="@+id/nav_song_list"
+            android:icon="@drawable/ic_playlist_play_red_a400_24dp"
+            android:title="Songs" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Albums" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Artists" />
+    </group>
+
+    <!--<item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>-->
+
+</menu>
